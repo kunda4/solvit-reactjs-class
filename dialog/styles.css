@@ -37,3 +37,31 @@ html, body{
 .avatar-container img{
     width: 100%;
 }
+
+
+dialog{
+    width: 320px;
+    min-height: 200px;
+    background: #212529;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 3px 8px 9px rgb(0 0 0 / 54%);
+    overflow: hidden;
+}
+.dialog-header{
+    display: flex;
+    height: 60px;
+    background: #495057;
+    box-shadow: 3px 8px 9px rgb(0 0 0 / 54%);
+    align-items: center;
+    padding: 0 16px;
+    gap: 8px;
+}
+.dialog-header svg{
+    stroke: #fff;
+    fill: transparent;
+}
+.dialog-title{
+    font-size: 16px;
+    color: #ffffff;
+}
