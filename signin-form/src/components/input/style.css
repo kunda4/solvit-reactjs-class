@@ -1,0 +1,12 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    gap: 8px;
+}
+.input input{
+    height: 56px;
+    border-radius: 12px;
+    padding-left: 16px;
+}

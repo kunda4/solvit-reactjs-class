@@ -1,0 +1,25 @@
+.sign-in-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.login-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.login-header img{
+    width: 48px;
+}
+.login-header h1{
+    font-size: 25px;
+}
+.signin-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
