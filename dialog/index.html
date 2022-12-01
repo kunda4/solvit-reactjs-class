@@ -18,7 +18,9 @@
             <dialog open>
                 <header class="dialog-header">
 
-                    
+                    <i class="fa fa-plus-square" aria-hidden="true"></i>
+
+                 
                     <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
                         <title>A warning icon</title>
                         <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
@@ -27,12 +29,22 @@
                       </svg>
 
 
-                    <h1 class="dialog-title">Are you sure you want to remove this user?</h1>
+                <h1 class="dialog-title">Are you sure you want to remove this user?</h1>
                 </header>
-                <div class="dialog-actions">
-                    <button class="cancel-btn">Cancel</button>
-                    <button class="cancel-btn">Confirm</button>
-                </div>
+                <section class="slot--body">
+                    <div class="slot--body--file">
+                        <label for="userimage">upload an image</label>
+                        <input id="userimage" type="file" accept=".jpg,.jpeg,pnp" name="userimage">
+                    </div>
+                    <p class="slot--body--max_upload"* Maximum upload 1mb></p>
+                </section>
+                <section class="slot--footer">
+                    <button class="slot--footer-clear_button">clear</button>
+                    <div class="slot--footer-menu">
+                        <button type="submit" class="slot--footer-cancel_button">cancel</button>
+                        <button type="submit" id="confirm_button" class="slot--footer-confirm _button">confirm</button>
+                    </div>
+                </section>
 
             </dialog>
             
